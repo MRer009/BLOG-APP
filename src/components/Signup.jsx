@@ -1,5 +1,4 @@
-import React from 'react'
-import React, {useState} from 'react'
+import React , {useState} from 'react'
 import authService from '../appwrite/auth.js'
 import {Link ,useNavigate} from 'react-router-dom'
 import {login} from '../store/authSlice.js'
